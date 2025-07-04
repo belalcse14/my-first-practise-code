@@ -1,0 +1,54 @@
+* {
+  border: none;
+  padding: none;
+}
+
+/* h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("images/travel_01.jpg");
+  background-size: cover;
+  background-position: center;
+} */
+
+.header {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-image: url("images/travel_01.jpg");
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+  text-shadow: #050000c4;
+  /* padding: 20px; */
+}
+
+.header h1 {
+  font-size: 3em;
+  margin: 0;
+  padding-top: 180px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  padding: 0 300px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background-color: #09b3117c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: #015805;
+}
