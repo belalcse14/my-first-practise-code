@@ -51,6 +51,7 @@ button {
 }
 button:hover {
   background-color: #015805;
+  transition: background-color 0.3s ease-out;
 }
 .main-story {
   display: flex;
@@ -83,4 +84,19 @@ section h2 {
   font-family: "Courier New", Courier, monospace;
   margin-top: 20px;
   text-decoration: overline;
+}
+
+.destination-list {
+  display: flex;
+  padding: 20px;
+  background-color: #f5f5f5c0;
+  margin: 20px auto;
+  max-width: 1190px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-out;
 }
