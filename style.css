@@ -1,6 +1,7 @@
 * {
   border: none;
   padding: none;
+  box-sizing: border-box;
 }
 
 .header {
@@ -89,6 +90,9 @@ section h2 {
   /* flex-wrap: wrap; */
   justify-content: space-between;
 }
+.destination-list img {
+  border-radius: 20px;
+}
 
 img:hover {
   transform: scale(1.05);
@@ -117,6 +121,7 @@ img:hover {
   /* font-weight: thinner; */
 }
 
+/* Travel Tips styles */
 .tips-container {
   padding: 20px;
   background-color: #f5f5f5c0;
@@ -142,6 +147,8 @@ img:hover {
   font-weight: medium;
 }
 
+/* Contact form styles */
+
 .contact-container p {
   text-align: center;
   padding: 0 200px;
@@ -154,7 +161,7 @@ img:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 50px 0;
   background-color: #f5f5f5c0;
   margin: 20px auto;
   max-width: 1190px;
@@ -173,6 +180,7 @@ img:hover {
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-family: nexa, sans-serif;
 }
 
 .contact-form button:hover {
@@ -183,5 +191,41 @@ img:hover {
   padding: 10px 20px;
   font-size: 1em;
   border-radius: 5px;
-  transition: ease-in-out 0.3s;
+  transition: ease 0.3s;
+}
+
+/* Footer styles */
+footer {
+  background-color: rgba(2, 11, 34, 0.9);
+  color: white;
+}
+.footer-container {
+  max-width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.footer-container p {
+  font-size: 20px;
+  font-family: nexa, sans-serif;
+}
+.social-link p {
+  font-size: 20px;
+  font-family: nexa, sans-serif;
+}
+.social-link ul {
+  list-style: none;
+  font-family: nexa, sans-serif;
+}
+.social-link ul li a {
+  text-decoration: none;
+  color: white;
+}
+.social-link ul li a:hover {
+  border-bottom: 2px solid rgb(177, 255, 177);
+}
+.fa-brands {
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
